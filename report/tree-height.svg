@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="360" viewBox="0 0 720 360" font-family="'Noto Sans KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif">
+<rect width="720" height="360" fill="#fcfcfb"/>
+<text x="78" y="24" font-size="16" font-weight="600" fill="#0b0b0b">트리 정렬이 만든 트리의 높이 (n = 4,000)</text>
+<text x="78" y="42" font-size="12" fill="#52514e">균형이 맞으면 log2(4000) ≈ 12, 한 줄로 늘어서면 4,000</text>
+<line x1="78" x2="700" y1="308.0" y2="308.0" stroke="#e4e3df" stroke-width="1"/>
+<text x="70" y="312.0" font-size="11" text-anchor="end" fill="#52514e">10</text>
+<line x1="78" x2="700" y1="226.7" y2="226.7" stroke="#e4e3df" stroke-width="1"/>
+<text x="70" y="230.7" font-size="11" text-anchor="end" fill="#52514e">100</text>
+<line x1="78" x2="700" y1="145.3" y2="145.3" stroke="#e4e3df" stroke-width="1"/>
+<text x="70" y="149.3" font-size="11" text-anchor="end" fill="#52514e">1k</text>
+<line x1="78" x2="700" y1="64.0" y2="64.0" stroke="#e4e3df" stroke-width="1"/>
+<text x="70" y="68.0" font-size="11" text-anchor="end" fill="#52514e">10k</text>
+<text x="16" y="186.0" font-size="12" fill="#52514e" text-anchor="middle" transform="rotate(-90 16 186.0)">높이 (로그)</text>
+<path d="M127.2,308 V276.9 Q127.2,272.9 131.2,272.9 H149.2 Q153.2,272.9 153.2,276.9 V308 Z" fill="#1baf7a"><title>트리 높이 · 무작위: 27</title></path>
+<text x="140.2" y="326" font-size="12" text-anchor="middle" fill="#0b0b0b">무작위</text>
+<path d="M251.6,308 V100.4 Q251.6,96.4 255.6,96.4 H273.6 Q277.6,96.4 277.6,100.4 V308 Z" fill="#1baf7a"><title>트리 높이 · 정렬됨: 4,000</title></path>
+<text x="264.6" y="326" font-size="12" text-anchor="middle" fill="#0b0b0b">정렬됨</text>
+<path d="M376.0,308 V100.4 Q376.0,96.4 380.0,96.4 H398.0 Q402.0,96.4 402.0,100.4 V308 Z" fill="#1baf7a"><title>트리 높이 · 역순: 4,000</title></path>
+<text x="389.0" y="326" font-size="12" text-anchor="middle" fill="#0b0b0b">역순</text>
+<path d="M500.4,308 V150.9 Q500.4,146.9 504.4,146.9 H522.4 Q526.4,146.9 526.4,150.9 V308 Z" fill="#1baf7a"><title>트리 높이 · 거의 정렬: 957</title></path>
+<text x="513.4" y="326" font-size="12" text-anchor="middle" fill="#0b0b0b">거의 정렬</text>
+<path d="M624.8,308 V178.6 Q624.8,174.6 628.8,174.6 H646.8 Q650.8,174.6 650.8,178.6 V308 Z" fill="#1baf7a"><title>트리 높이 · 중복 많음: 437</title></path>
+<text x="637.8" y="326" font-size="12" text-anchor="middle" fill="#0b0b0b">중복 많음</text>
+<line x1="78" x2="700" y1="308" y2="308" stroke="#b9b8b3"/>
+<line x1="78" x2="700" y1="301.7" y2="301.7" stroke="#52514e" stroke-width="1.5" stroke-dasharray="5 4"/>
+<line x1="541.9" x2="563.9" y1="54" y2="54" stroke="#52514e" stroke-width="1.5" stroke-dasharray="5 4"/>
+<text x="569.9" y="58" font-size="12" fill="#0b0b0b">균형 트리의 높이 ≈ 12</text>
+</svg>
