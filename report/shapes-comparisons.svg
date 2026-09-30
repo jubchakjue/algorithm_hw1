@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="360" viewBox="0 0 720 360" font-family="'Noto Sans KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif">
+<rect width="720" height="360" fill="#fcfcfb"/>
+<text x="78" y="24" font-size="16" font-weight="600" fill="#0b0b0b">입력 모양별 비교 횟수 (n = 4,000)</text>
+<text x="78" y="42" font-size="12" fill="#52514e">로그 축 — 눈금 한 칸이 10배</text>
+<line x1="78" x2="700" y1="308.0" y2="308.0" stroke="#e4e3df" stroke-width="1"/>
+<text x="70" y="312.0" font-size="11" text-anchor="end" fill="#52514e">10k</text>
+<line x1="78" x2="700" y1="226.7" y2="226.7" stroke="#e4e3df" stroke-width="1"/>
+<text x="70" y="230.7" font-size="11" text-anchor="end" fill="#52514e">100k</text>
+<line x1="78" x2="700" y1="145.3" y2="145.3" stroke="#e4e3df" stroke-width="1"/>
+<text x="70" y="149.3" font-size="11" text-anchor="end" fill="#52514e">1M</text>
+<line x1="78" x2="700" y1="64.0" y2="64.0" stroke="#e4e3df" stroke-width="1"/>
+<text x="70" y="68.0" font-size="11" text-anchor="end" fill="#52514e">10M</text>
+<text x="16" y="186.0" font-size="12" fill="#52514e" text-anchor="middle" transform="rotate(-90 16 186.0)">비교 횟수 (로그)</text>
+<rect x="616.2" y="48" width="12" height="12" rx="3" fill="#1baf7a"/>
+<text x="633.2" y="58" font-size="12" fill="#0b0b0b">트리 정렬</text>
+<rect x="543.9" y="48" width="12" height="12" rx="3" fill="#eb6834"/>
+<text x="560.9" y="58" font-size="12" fill="#0b0b0b">셸 정렬</text>
+<rect x="460.1" y="48" width="12" height="12" rx="3" fill="#2a78d6"/>
+<text x="477.1" y="58" font-size="12" fill="#0b0b0b">선택 정렬</text>
+<path d="M99.2,308 V75.9 Q99.2,71.9 103.2,71.9 H121.2 Q125.2,71.9 125.2,75.9 V308 Z" fill="#2a78d6"><title>선택 정렬 · 무작위: 7,998,000</title></path>
+<path d="M127.2,308 V235.9 Q127.2,231.9 131.2,231.9 H149.2 Q153.2,231.9 153.2,235.9 V308 Z" fill="#eb6834"><title>셸 정렬 · 무작위: 86,154</title></path>
+<path d="M155.2,308 V252.9 Q155.2,248.9 159.2,248.9 H177.2 Q181.2,248.9 181.2,252.9 V308 Z" fill="#1baf7a"><title>트리 정렬 · 무작위: 53,293</title></path>
+<text x="140.2" y="326" font-size="12" text-anchor="middle" fill="#0b0b0b">무작위</text>
+<path d="M223.6,308 V75.9 Q223.6,71.9 227.6,71.9 H245.6 Q249.6,71.9 249.6,75.9 V308 Z" fill="#2a78d6"><title>선택 정렬 · 정렬됨: 7,998,000</title></path>
+<path d="M251.6,308 V263.0 Q251.6,259.0 255.6,259.0 H273.6 Q277.6,259.0 277.6,263.0 V308 Z" fill="#eb6834"><title>셸 정렬 · 정렬됨: 40,006</title></path>
+<path d="M279.6,308 V75.9 Q279.6,71.9 283.6,71.9 H301.6 Q305.6,71.9 305.6,75.9 V308 Z" fill="#1baf7a"><title>트리 정렬 · 정렬됨: 7,998,000</title></path>
+<text x="264.6" y="326" font-size="12" text-anchor="middle" fill="#0b0b0b">정렬됨</text>
+<path d="M348.0,308 V75.9 Q348.0,71.9 352.0,71.9 H370.0 Q374.0,71.9 374.0,75.9 V308 Z" fill="#2a78d6"><title>선택 정렬 · 역순: 7,998,000</title></path>
+<path d="M376.0,308 V249.4 Q376.0,245.4 380.0,245.4 H398.0 Q402.0,245.4 402.0,249.4 V308 Z" fill="#eb6834"><title>셸 정렬 · 역순: 58,816</title></path>
+<path d="M404.0,308 V75.9 Q404.0,71.9 408.0,71.9 H426.0 Q430.0,71.9 430.0,75.9 V308 Z" fill="#1baf7a"><title>트리 정렬 · 역순: 7,998,000</title></path>
+<text x="389.0" y="326" font-size="12" text-anchor="middle" fill="#0b0b0b">역순</text>
+<path d="M472.4,308 V75.9 Q472.4,71.9 476.4,71.9 H494.4 Q498.4,71.9 498.4,75.9 V308 Z" fill="#2a78d6"><title>선택 정렬 · 거의 정렬: 7,998,000</title></path>
+<path d="M500.4,308 V250.4 Q500.4,246.4 504.4,246.4 H522.4 Q526.4,246.4 526.4,250.4 V308 Z" fill="#eb6834"><title>셸 정렬 · 거의 정렬: 57,240</title></path>
+<path d="M528.4,308 V152.5 Q528.4,148.5 532.4,148.5 H550.4 Q554.4,148.5 554.4,152.5 V308 Z" fill="#1baf7a"><title>트리 정렬 · 거의 정렬: 913,808</title></path>
+<text x="513.4" y="326" font-size="12" text-anchor="middle" fill="#0b0b0b">거의 정렬</text>
+<path d="M596.8,308 V75.9 Q596.8,71.9 600.8,71.9 H618.8 Q622.8,71.9 622.8,75.9 V308 Z" fill="#2a78d6"><title>선택 정렬 · 중복 많음: 7,998,000</title></path>
+<path d="M624.8,308 V252.5 Q624.8,248.5 628.8,248.5 H646.8 Q650.8,248.5 650.8,252.5 V308 Z" fill="#eb6834"><title>셸 정렬 · 중복 많음: 53,873</title></path>
+<path d="M652.8,308 V156.5 Q652.8,152.5 656.8,152.5 H674.8 Q678.8,152.5 678.8,156.5 V308 Z" fill="#1baf7a"><title>트리 정렬 · 중복 많음: 816,583</title></path>
+<text x="637.8" y="326" font-size="12" text-anchor="middle" fill="#0b0b0b">중복 많음</text>
+<line x1="78" x2="700" y1="308" y2="308" stroke="#b9b8b3"/>
+</svg>
